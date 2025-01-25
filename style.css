@@ -1,0 +1,32 @@
+/* do as you please with my code, if you find something thats broken hmu :3c*/
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+
+body{
+    font-family: 'Fira Code', monospace;
+    background-color: #1e1e2e;
+}
+.wrap{
+    display: flex;
+    align-items: center;
+}
+.box{
+    padding: 5px;
+    margin: 6px;
+    border: 0px;
+    width: 30vw;
+    max-height: 20vh;
+}
+.top img {
+    float: left;
+    image-rendering: pixelated;
+}
+p, ul, li, b, h1, h2, h3{
+    color: #ccd4f4;
+}
+a{
+    color: #b4befe;
+}
+a:hover, a:visited{
+    color: #89b4fa;
+    text-decoration: wavy;
+}
