@@ -35,6 +35,11 @@ main{
   width: 100px;
   margin-right: 15px;
 }
+@media only screen and (max-width: 400px) {
+  .home{
+    flex-direction: column;
+  }
+}
 /* light mode is catppuccin latte (https://catppuccin.com/palette), dark mode is ripped colors from the barrens oneshot :D */
 :root {
 	--base: #05040c;
